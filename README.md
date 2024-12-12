@@ -15,6 +15,7 @@ disown %1
 ```
 jobs
 ```
+分离shell会话的任务不会显示
 ## 安装饥荒服务器可视化面板
 一键安装：
 ```shell
@@ -22,6 +23,7 @@ wget -O- https://github.com/ytming/aaa/releases/download/dst-admin-g1.3.1/instal
 ```
 后台执行：
 ```shell
-wget -O- https://github.com/ytming/aaa/releases/download/dst-admin-g1.3.1/install_jihuang_server.sh | bash &
+wget -O- https://github.com/ytming/aaa/releases/download/dst-admin-g1.3.1/install_jihuang_server.sh | bash &>/dev/null &
+disown
 ```
 
