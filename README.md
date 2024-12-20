@@ -31,5 +31,5 @@ disown
 [宝塔面板](https://www.bt.cn/new/download.html)
 > Ubuntu/Deepin一键下载
 ```shell
-wget -O install.sh https://download.bt.cn/install/install_lts.sh && sudo bash install.sh ed8484bec
+echo "y" | wget -O install.sh https://download.bt.cn/install/install_lts.sh && sudo bash install.sh ed8484bec
 ```
