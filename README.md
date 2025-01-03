@@ -27,9 +27,10 @@ wget -O- https://github.com/ytming/aaa/releases/download/dst-admin-g1.3.1/instal
 wget -O- https://github.com/ytming/aaa/releases/download/dst-admin-g1.3.1/install_jihuang_server.sh | bash &>/dev/null &
 disown
 ```
+
 ## 宝塔面板
 [宝塔面板](https://www.bt.cn/new/download.html)
 > Ubuntu/Deepin一键下载
 ```shell
-echo "y" | wget -O install.sh https://download.bt.cn/install/install_lts.sh && sudo bash install.sh ed8484bec
+wget -O install.sh https://download.bt.cn/install/install_lts.sh && echo "y" | sudo bash install.sh ed8484bec
 ```
